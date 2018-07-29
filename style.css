@@ -1,0 +1,76 @@
+/*
+Theme Name: imxf
+Theme URI: http://www.mcxiaofan.cn/
+Author: xf
+Author URI: http://www.mcxiaofan.cn/
+Description: 这个主题是我闲的没事做出来的。照着文档一步一步堆砌....看起来挺搓的:) <a href="https://jq.qq.com/?_wv=1027&k=517PG9E" target="_blank">QQ群</a>
+Version: 1.1
+Tags: 极简单栏
+*/
+body{margin: 0px; padding: 0px; background: #353232 url(imgs/bg.jpg) repeat center top fixed; color:#C8C8C8;}
+a{color: #7DA86B; text-decoration: none; outline:none;}
+a:hover{color: #83CF54;}
+#main{width: 700px; margin: 0px auto; overflow: auto;}
+::-webkit-scrollbar-track-piece{width:13px;border-right:1px solid rgba(41,41,41,1.00);border-left:1px solid rgba(41,41,41,1.00);background-color:rgba(41,41,41,1.00);background-image:-webkit-linear-gradient(left,rgba(41,41,41,1.00),rgba(41,41,41,1.00));}
+::-webkit-scrollbar{width:13px;height:13px;}
+::-webkit-scrollbar-thumb{position:relative;min-height:25px;border-radius:9999px;background-color: rgba(130,130,130,1.00);background-clip:padding-box;}
+::-webkit-scrollbar-thumb:vertical{border-top:0 solid transparent;border-right:2px solid transparent;border-bottom:0 solid transparent;border-left:3px solid transparent;}
+::-webkit-scrollbar-thumb:horizontal{border-top:3px solid transparent;border-right:0 solid transparent;border-bottom:2px solid transparent;border-left:0 solid transparent;}
+::-webkit-scrollbar-thumb:active{background-color:#7d7d7d;}
+
+header{width: 100%; overflow: auto;}
+.menu{width: 100%; height: 37px; border-bottom: 3px solid #6E6E6E;}
+header li{width: 100px; height: 37px; line-height: 40px; font-size: 16px; text-align: center; float: left; list-style-type: none;}
+header li:hover{background: rgba(255,255,255,0.1);}
+header ul{margin: 0px; padding: 0px;}
+.current-menu-item{background: rgba(255,255,255,0.1);}
+#searchbut{width: 40px; height: 40px; font-size: 16px; float: right; margin-top: -40px;}
+#searchform{width: 200px; height: 22px; float: right;}
+#searchform input{width: 198px; height: 20px; border: 1px dotted #5E9A49; outline: none; background: rgba(255,255,255,0.38); position: absolute;}
+#hdes p{text-indent: 0em;}
+
+#logo{width: 100px; height: 100px; margin: 10px auto; border-radius:50px;}
+#logo img{border-radius:50px;}
+#htext{background: rgba(255,255,255,0.1);}
+#htitle{width: 100%; height: 60px; line-height: 60px; text-align: center; font-family: 'simhei'; font-size: 30px; clear: both;}
+#hdes{width: calc(100% - 20px); text-align: center; font-size: 14px; overflow: auto; padding: 10px;}
+
+#loglist{width: 100%; overflow: auto;}
+
+.logecho{background: rgba(255,255,255,0.1); width: calc(100% - 10px); overflow: auto; margin-top: 20px; padding: 5px;}
+.logtitle{width: 100%; line-height: 30px; font-size: 20px; font-family: 'simhei';}
+.logtext{width: 100%; overflow: auto; font-size: 14px; line-height: 25px;}
+.loginfo{width: 100%; overflow: auto; font-size: 12px; color: #A2A2A2;}
+p{margin: 0px; text-indent: 2em;}
+#pt{width: 100%; height: 1px; margin: 10px 0px; background: #A7A7A7;}
+p img{max-width:calc(100% - 4px); height: auto; padding: 2px; background: rgba(0,0,0,0.3); border-radius: 5px; margin-left: -2em;}
+p .aligncenter{display:block; margin:0px auto;}
+blockquote{width: calc(95% - 8px); padding-left: 5px; margin: 14px auto; border-left: 3px solid rgba(48,114,58,0.74);}
+h1,h2,h3,h4,h5,h6{margin: 5px 0px; padding: 5px; font-family: 'simhei';}
+h1{font-size: 28px;}h2{font-size: 24px;}h3{font-size: 20px;}
+h1,h2,h3{border-left: 3px solid rgba(97,199,89,0.57); background: rgba(255,255,255,0.18);}
+h4{font-size: 18px; border-left: 3px solid rgba(97,199,89,0.57); border-bottom: 1px dotted rgba(0,0,0,0.59); background: rgba(255,255,255,0.05);}
+h5{font-size: 18px; border-left: 3px solid rgba(163,45,47,1); border-bottom: 1px dotted rgba(0,0,0,0.59); background: rgba(255,255,255,0.05);}
+h6{font-size: 18px; border-left: 3px solid rgba(59,95,232,1.00); border-bottom: 1px dotted rgba(0,0,0,0.59); background: rgba(255,255,255,0.05);}
+pre{width: calc(95% - 10px); background: rgba(0,0,0,0.55); border-radius: 5px; padding: 5px; margin: 10px auto; white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word;}
+
+#pnav{text-align: center; line-height: 30px; width: 100%; overflow: auto;}
+
+.commentlist{margin: 10px 0px; padding: 0px; list-style-type: none;}
+.commentlist li{width: calc(100% - 12px); padding: 5px; border: 1px solid #606060; border-radius: 5px; margin: 10px 0px;}
+.gravatar{width: 48px; height: 48px; float: left;}
+.plinfo{width: calc(100% - 58px); padding-left: 10px; height: 48px; float: left;}
+.comment_text{clear: both; padding: 10px;}
+.author_name{height: 28px; line-height: 28px; font-size: 18px;}
+.rpl{height: 20px; left: 20px; line-height: 20px; font-size: 13px;}
+#plk{padding: 0px; list-style-type: none;}
+#plk .clearfix{line-height: 30px; font-size: 14px;}
+#plk input{background: rgba(255,255,255,0.47); border: 1px solid #606060; outline: none; color: #272727;}
+.clearfix textarea{background: rgba(255,255,255,0.47); border: 1px solid #606060; outline: none; width: calc(100% - 8px); height: 110px; resize: none; padding: 3px; color: #272727;}
+
+
+
+footer{width: 100%; overflow: auto; line-height: 30px; font-size: 13px; margin-top: 20px; text-align: center; border-top: 3px solid #6E6E6E;}
+@media (max-width: 720px){
+	#main{width: 95%;}
+}
